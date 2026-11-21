@@ -1,8 +1,15 @@
 <div align="center">
 
-<h1> 🔋 Advanced Cell-Level Degradation Analysis &amp; Scaling</h1>
+<h1>Advanced Cell-Level Degradation Analysis &amp; Scaling</h1>
 
 <p><em>Preprocessing · capacity fade · cycle anomalies · remaining useful life · module &amp; pack simulation</em></p>
+
+<p>
+  <img alt="Python 3.11" src="https://img.shields.io/badge/Python-3.11-3776AB?logo=python&logoColor=white">
+  <img alt="PyTorch" src="https://img.shields.io/badge/PyTorch-LSTM%20%7C%20Transformer-EE4C2C?logo=pytorch&logoColor=white">
+  <img alt="scikit-learn" src="https://img.shields.io/badge/scikit--learn-Ridge%20%7C%20IsolationForest%20%7C%20DBSCAN-F7931E?logo=scikitlearn&logoColor=white">
+  <img alt="Jupyter" src="https://img.shields.io/badge/Jupyter-notebooks-F37626?logo=jupyter&logoColor=white">
+</p>
 
 <p>
   <a href="#setup"><b>Setup</b></a> ·
@@ -125,13 +132,14 @@ Task 1 expects these export headers:
 Run **Task 1 first**. Tasks 2–5 read its outputs and can then run independently. The comparison plot in Task 4 uses recorded forecasts.
 
 ```mermaid
+%%{init: {"themeVariables": {"fontSize": "11px"}, "flowchart": {"nodeSpacing": 12, "rankSpacing": 22, "padding": 4}}}%%
 flowchart LR
-    RAW[("data/raw/*.csv")] --> T1["Task 1<br/>Preprocessing"]
-    T1 --> P[("data/processed/<br/>measurements_clean.csv<br/>cycle_summary.csv")]
-    P --> T2["Task 2<br/>Degradation modeling"]
-    P --> T3["Task 3<br/>Anomaly detection"]
-    P --> T4["Task 4<br/>RUL estimation"]
-    P --> T5["Task 5<br/>Module & pack scaling"]
+    RAW[("raw CSVs")] --> T1["T1<br/>Preprocess"]
+    T1 --> P[("processed<br/>CSVs")]
+    P --> T2["T2<br/>Degradation"]
+    P --> T3["T3<br/>Anomalies"]
+    P --> T4["T4<br/>RUL"]
+    P --> T5["T5<br/>Pack"]
 ```
 
 <a id="task-1"></a>
