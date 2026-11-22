@@ -1,23 +1,8 @@
 <div align="center">
 
-<h1>Advanced Cell-Level Degradation Analysis &amp; Scaling</h1>
+<h1> Advanced Cell-Level Degradation Analysis &amp; Scaling</h1>
 
 <p><em>Preprocessing · capacity fade · cycle anomalies · remaining useful life · module &amp; pack simulation</em></p>
-
-<p>
-  <img alt="Python 3.11" src="https://img.shields.io/badge/Python-3.11-3776AB?logo=python&logoColor=white">
-  <img alt="PyTorch" src="https://img.shields.io/badge/PyTorch-LSTM%20%7C%20Transformer-EE4C2C?logo=pytorch&logoColor=white">
-  <img alt="scikit-learn" src="https://img.shields.io/badge/scikit--learn-Ridge%20%7C%20IsolationForest%20%7C%20DBSCAN-F7931E?logo=scikitlearn&logoColor=white">
-  <img alt="Jupyter" src="https://img.shields.io/badge/Jupyter-notebooks-F37626?logo=jupyter&logoColor=white">
-</p>
-
-<p>
-  <a href="#setup"><b>Setup</b></a> ·
-  <a href="#data"><b>Input data</b></a> ·
-  <a href="#run"><b>Run the analysis</b></a> ·
-  <a href="#visuals"><b>Visualizations</b></a> ·
-  <a href="#references"><b>References</b></a>
-</p>
 
 </div>
 
