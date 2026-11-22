@@ -212,6 +212,25 @@ Uses `cycle_summary.csv` to calibrate cell fade and simulate **four series-conne
 <a id="visuals"></a>
 ## Required visualizations
 
+### Capacity vs. cycle count with predictive curves
+![Measured discharge capacity and model forecasts for both runs](visualizations/01_capacity_vs_cycle_count_with_predictive_curves.png)
+
+### Coulombic efficiency trends
+![Coulombic efficiency by cycle for both runs](visualizations/02_coulombic_efficiency_trends.png)
+
+### Deviation clusters (anomalous cycles)
+![DBSCAN clusters and anomalous cycles in a PCA projection](visualizations/03_dbscan_deviation_clusters.png)
+
+[Supporting figure: Isolation Forest cycle classification](visualizations/03_isolation_forest_cycle_classification.png)
+
+### Forecasted RUL distribution
+
+![Sequence-model RUL forecasts across cutoffs and training seeds](visualizations/04c_rul_distribution_sequence_models.png)
+
+![Capacity fade RUL forecasts](visualizations/04a_rul_distribution_capacity_fade.png)
+
+![Feature-based ML RUL forecasts](visualizations/04b_rul_distribution_feature_based.png)
+
 | Deliverable | Default location or generator |
 |-------------|-------------------------------|
 | Capacity vs. cycle count with predictive curves | Task 2 capacity plot |
