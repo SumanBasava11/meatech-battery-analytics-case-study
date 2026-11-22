@@ -4,18 +4,8 @@
 
 <p><em>Preprocessing · capacity fade · cycle anomalies · remaining useful life · module &amp; pack simulation</em></p>
 
-<p>
-
-<a href="#setup">Setup</a> ·
-
-<a href="#data">Input data</a> ·
-
-<a href="#run">Run the analysis</a> ·
-
-<a href="#visuals">Visualizations</a> ·
-
-<a href="#references">References</a>
-
+<p align="center">
+  <a href="#setup">Setup</a> · <a href="#data">Input data</a> · <a href="#run">Run the analysis</a> · <a href="#visuals">Visualizations</a> · <a href="#references">References</a>
 </p>
 
 </div>
