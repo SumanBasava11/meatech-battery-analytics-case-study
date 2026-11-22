@@ -6,15 +6,15 @@
 
 <p>
 
-<a href="#setup"><b>Setup</b></a> ·
+<a href="#setup"><b>Setup</a> ·
 
-<a href="#data"><b>Input data</b></a> ·
+<a href="#data"><b>Input data</a> ·
 
-<a href="#run"><b>Run the analysis</b></a> ·
+<a href="#run"><b>Run the analysis</a> ·
 
-<a href="#visuals"><b>Visualizations</b></a> ·
+<a href="#visuals"><b>Visualizations</a> ·
 
-<a href="#references"><b>References</b></a>
+<a href="#references"><b>References</a>
 
 </p>
 
