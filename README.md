@@ -4,6 +4,20 @@
 
 <p><em>Preprocessing · capacity fade · cycle anomalies · remaining useful life · module &amp; pack simulation</em></p>
 
+<p>
+
+<a href="#setup"><b>Setup</b></a> ·
+
+<a href="#data"><b>Input data</b></a> ·
+
+<a href="#run"><b>Run the analysis</b></a> ·
+
+<a href="#visuals"><b>Visualizations</b></a> ·
+
+<a href="#references"><b>References</b></a>
+
+</p>
+
 </div>
 
 ---
@@ -51,6 +65,20 @@ This case study analyzes laboratory cycling data from **two LR1865SZ lithium-ion
   </tr>
 </table>
 
+### Clone or fork the repository
+
+- **Clone directly** to run the project locally. On GitHub, select **Code → HTTPS** and copy the URL.
+- **Fork first** to create your own GitHub copy. Select **Fork → Create fork**, then copy the HTTPS URL from your fork.
+
+In your terminal, replace `<repository-url>` with the URL you copied:
+
+```bash
+git clone <repository-url>
+cd meatech-battery-analytics-case-study
+```
+
+Open the cloned folder in VS Code, then follow the virtual environment setup below.
+
 <a id="setup"></a>
 ## Local setup
 
@@ -64,9 +92,6 @@ py -3.11 -m venv .venv
 .\.venv\Scripts\python.exe -m pip install -r requirements.txt
 .\.venv\Scripts\Activate.ps1
 ```
-
-> [!TIP]
-> If PowerShell blocks activation, use `.\.venv\Scripts\python.exe` in place of `python` in the commands below.
 
 </details>
 
