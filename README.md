@@ -108,6 +108,7 @@ python -c "import numpy, pandas, scipy, sklearn, matplotlib, lmfit, torch"
 
 <a id="data"></a>
 ## Input data
+The case-study dataset is excluded from this repository. To reproduce the analysis, place the original CSV files in `data/raw/` and run Task 1.
 
 Place the original CSV exports supplied with the case study in `data/raw/` using these names:
 
