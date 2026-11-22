@@ -208,9 +208,6 @@ python T5_module_pack_scaling/module_pack_scaling.py
 
 Uses `cycle_summary.csv` to calibrate cell fade and simulate **four series-connected 8S4P modules**. Compares cell variation, temperature gradients, and residual state-of-charge mismatch, then benchmarks the runtime and agreement of three model resolutions. Prints the calibration, scenario, and benchmark tables and saves `pack_capacity_scenarios.png` and `scaling_accuracy_runtime.png` in `T5_module_pack_scaling/results/`.
 
-> [!TIP]
-> Run with `--demo` to exercise the simulation with an illustrative fade rate if the cycle summary is unavailable.
-
 <a id="visuals"></a>
 ## Required visualizations
 
