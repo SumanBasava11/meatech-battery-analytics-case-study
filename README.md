@@ -218,38 +218,6 @@ Uses `cycle_summary.csv` to calibrate cell fade and simulate **four series-conne
 | Deviation clusters (anomalous cycles) | Task 3 anomaly notebook, deviation-cluster export cell |
 | Forecasted RUL distributions | Capacity fade · Feature-based ML · Sequence models |
 
-> [!NOTE]
-> Generated figure links resolve once the corresponding PNGs are present in the checkout.
-
-<details>
-<summary><b>Figure gallery</b> (renders after the scripts have produced the PNGs)</summary>
-<br>
-
-<table>
-  <tr>
-    <td align="center" width="50%">
-      <img src="results/coulombic_efficiency_trends.png" alt="Coulombic efficiency trends" width="100%"><br>
-      <sub><b>Task 1</b> · Coulombic efficiency trends</sub>
-    </td>
-    <td align="center" width="50%">
-      <img src="T3_anomaly_detection/results/isolation_forest_cycle_classification.png" alt="Isolation Forest cycle classification" width="100%"><br>
-      <sub><b>Task 3</b> · Isolation Forest cycle classification</sub>
-    </td>
-  </tr>
-  <tr>
-    <td align="center" width="50%">
-      <img src="T5_module_pack_scaling/results/pack_capacity_scenarios.png" alt="Pack capacity scenarios" width="100%"><br>
-      <sub><b>Task 5</b> · Pack capacity scenarios</sub>
-    </td>
-    <td align="center" width="50%">
-      <img src="T5_module_pack_scaling/results/scaling_accuracy_runtime.png" alt="Scaling accuracy and runtime" width="100%"><br>
-      <sub><b>Task 5</b> · Scaling accuracy vs. runtime</sub>
-    </td>
-  </tr>
-</table>
-
-</details>
-
 <a id="references"></a>
 ## References
 
